@@ -13,7 +13,6 @@ const Input = ({ add }: Props) => {
 
   return (
     <div>
-      <h1>To do App</h1>
       <input
         type="text"
         onChange={handleChange}
