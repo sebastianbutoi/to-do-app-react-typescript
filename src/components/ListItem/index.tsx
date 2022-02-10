@@ -5,7 +5,8 @@ type Props = {
   action: () => void;
 };
 
-const ListItem = ({ text, action }: Props) => {
+const ListItem = (props: Props): JSX.Element => {
+  const { text, action } = props;
   return (
     <li>
       {text}

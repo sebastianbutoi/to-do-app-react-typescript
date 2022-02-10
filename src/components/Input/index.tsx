@@ -5,8 +5,8 @@ type Props = {
   add: (arg0: string) => void;
 };
 
-const Input = ({ add }: Props) => {
-  const [text, setText] = useState("");
+const Input = ({ add }: Props): JSX.Element => {
+  const [text, setText] = useState<string>("");
 
   function handleChange(event: React.ChangeEvent<HTMLInputElement>) {
     setText(event.target.value);
@@ -14,6 +14,7 @@ const Input = ({ add }: Props) => {
 
   return (
     <div>
+      <h1>To do App</h1>
       <input
         type="text"
         onChange={handleChange}

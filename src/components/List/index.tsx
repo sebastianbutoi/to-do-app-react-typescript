@@ -6,7 +6,8 @@ type Props = {
   remove: (arg0: number) => void;
 };
 
-const List = ({ list, remove }: Props) => {
+const List = (props: Props): JSX.Element => {
+  const { list, remove } = props;
   return (
     <ul>
       {list.map((element, index) => (
