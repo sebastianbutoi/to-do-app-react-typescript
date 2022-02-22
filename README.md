@@ -1,4 +1,5 @@
 # To do App - React and TypeScript
+We've built this app for a School of Code hackathon and I decided to convert it into TypeScript.
 
 ## Available Scripts
 
