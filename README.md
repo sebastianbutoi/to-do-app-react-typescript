@@ -26,5 +26,4 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 ## How the app looks like
-
 ![Screenshot 2022-02-22 at 19 44 04](https://user-images.githubusercontent.com/93223563/155207695-c00d58bf-1fbf-44c8-885c-a47fa5a81fdb.png)
